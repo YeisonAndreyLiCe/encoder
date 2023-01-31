@@ -1,0 +1,67 @@
+body {
+  background-color: #e5e5e5;
+}
+
+#input-message {
+  padding-top: 50px;
+  border: none;
+  background-color: #e5e5e5;
+  height: 60vh;
+  text-transform: lowercase;
+  color: #0a3871;
+}
+::placeholder {
+  color: #0a3871;
+}
+.text-area:focus {
+  outline: none;
+}
+
+.btn {
+  border-radius: 32px;
+}
+
+.btn-encrypt {
+  background-color: #0a3871;
+  color: #e5e5e5;
+}
+
+.btn-encrypt:hover {
+  background-color: #ffffff;
+  color: #0a3871;
+  border: #0a3871 1px solid;
+}
+
+#copy {
+  color: #0a3871;
+  border: #0a3871 1px solid;
+}
+
+#copy:hover {
+  border: #0a3871 2px solid;
+}
+
+.btn-decrypt {
+  background-color: #e5e5e5;
+  color: #0a3871;
+  border: #0a3871 1px solid;
+}
+
+.btn-decrypt:hover {
+  background-color: #ffffff;
+}
+
+#output-container {
+  background-color: #ffffff;
+  color: #343a40;
+  min-height: 100px;
+  border-radius: 32px;
+  text-align: center;
+  justify-content: space-between;
+  align-content: center;
+}
+
+#output-container p {
+  padding: 20px;
+  color: #0a3871;
+}
